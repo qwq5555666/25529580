@@ -1,0 +1,136 @@
+/* Amazon homepage clone */
+
+/* global reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* whole page: background and base font */
+body {
+    background: #eee;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: black;
+}
+
+/* centered fixed-width container used by every section */
+.page-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* clearfix for float containers */
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* top bar: dark background, white text */
+.header {
+    background: black;
+    color: white;
+}
+
+/* logo on the left */
+.logo {
+    float: left;
+    width: 150px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+/* deliver info next to logo */
+.deliver {
+    float: left;
+    padding-top: 20px;
+    font-size: 12px;
+}
+
+/* search area: holds category, input and button */
+.search-area {
+    float: left;
+    margin-top: 12px;
+    margin-left: 15px;
+}
+
+/* category box on the left of the search bar */
+.search-category {
+    float: left;
+    width: 55px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    background: #eee;
+    color: gray;
+    font-size: 13px;
+}
+
+/* search input in the middle */
+.search-input {
+    float: left;
+    width: 555px;
+    height: 36px;
+    line-height: 36px;
+    padding-left: 10px;
+    background: white;
+    color: gray;
+    font-size: 14px;
+}
+
+/* search button on the right */
+.search-button {
+    float: left;
+    width: 70px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    background: orange;
+    color: black;
+    font-size: 14px;
+}
+
+/* button hover */
+.search-button:hover {
+    background: darkorange;
+}
+
+/* right link group */
+.header-links {
+    float: right;
+}
+
+/* one link in the top bar */
+.header-item {
+    display: inline-block;
+    padding: 0 12px;
+    line-height: 60px;
+    font-size: 13px;
+}
+
+/* link hover */
+.header-item:hover {
+    background: darkslategray;
+}
+
+/* sub nav bar */
+.sub-nav {
+    background: darkslategray;
+}
+
+/* sub nav links */
+.sub-nav a {
+    display: inline-block;
+    padding: 11px 14px;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+/* sub nav hover */
+.sub-nav a:hover {
+    background: gray;
+}
