@@ -3,32 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <title>Amazon Home Clone</title>
-    <!-- This is the external CSS file. All styles come from here, so no inline styles are used. -->
+    <!-- external css file -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<!-- Top navigation bar. It is a dark bar at the top. It has the logo, delivery text, search box and some links on the right. -->
+<!-- top nav bar: logo, search, links -->
 <div class="header clearfix">
     <div class="page-width">
 
-        <!-- The Amazon logo is on the left side. -->
+        <!-- logo -->
         <div class="logo">amazon</div>
 
-        <!-- This small text shows the delivery place. It is next to the logo. -->
-        <div class="deliver">
-            Deliver to<br>
-            Singapore
-        </div>
+        <!-- deliver info -->
+        <div class="deliver">Deliver to Singapore</div>
 
-        <!-- This is the search box. It has three parts: category, input and button. They are all floated. -->
+        <!-- search box -->
         <div class="search-area clearfix">
             <div class="search-category">All</div>
             <div class="search-input">Search Amazon</div>
             <div class="search-button">Search</div>
         </div>
 
-        <!-- These links are on the right side of the top bar. -->
+        <!-- right links -->
         <div class="header-links">
             <div class="header-item">Language</div>
             <div class="header-item">Account</div>
@@ -38,10 +35,10 @@
 
     </div>
 </div>
-<!-- End of the top navigation bar -->
+<!-- end of top nav -->
 
 
-<!-- This is the second menu bar. It is under the top bar and has some small links. -->
+<!-- second menu bar -->
 <div class="sub-nav">
     <div class="page-width">
         <a href="#">All</a>
@@ -54,109 +51,137 @@
         <a href="#">Sell</a>
     </div>
 </div>
-<!-- End of the second menu bar -->
 
 
-<!-- This part has five big cards. They are put in one row by float. The clearfix class clears the float. -->
+<!-- five big cards -->
 <div class="page-width card-row clearfix">
 
     <div class="big-card card-one">
         <h2>Kitchen Essentials</h2>
-        <img src="img/pic6.png" alt="Kitchen appliances">
+        <img src="img/pic6.png" alt="card image">
     </div>
 
     <div class="big-card card-two">
         <h2>All Beauty Products</h2>
-        <img src="img/pic5.png" alt="Beauty products">
+        <img src="img/pic5.png" alt="card image">
     </div>
 
     <div class="big-card card-three">
         <h2>Refresh Your Style</h2>
-        <img src="img/pic4.png" alt="Clothes and fashion">
+        <img src="img/pic4.png" alt="card image">
     </div>
 
     <div class="big-card card-four">
         <h2>Toys For Kids</h2>
-        <img src="img/pic3.png" alt="Toys for kids">
+        <img src="img/pic3.png" alt="card image">
     </div>
 
     <div class="big-card card-five">
         <h2>Upgrade Your Computer</h2>
-        <img src="img/pic2.png" alt="Laptop computer">
+        <img src="img/pic2.png" alt="card image">
     </div>
 
 </div>
-<!-- End of the five big cards -->
+<!-- end of big cards -->
 
 
-<!-- This part has four white panels. They are also put in a row by float. The parent uses overflow hidden to clear the float. -->
+<!-- four product panels -->
 <div class="page-width products">
 
-    <!-- Panel one. It is about electronics. The small pictures inside are floated and cleared by an extra tag. -->
-    <div class="product-panel">
-        <h3>Power Your Electronics</h3>
-        <div class="product-item">
-            <img src="img/pic6.png" alt="Appliances">
-            <p>Appliances</p>
-        </div>
-        <div class="product-item">
-            <img src="img/pic2.png" alt="Laptops">
-            <p>Laptops</p>
-        </div>
-        <div class="clear-box"></div>
+    <!-- panel 1 -->
+<div class="product-panel">
+    <h3>Power Your Electronics</h3>
+    <div class="product-item">
+        <img src="img/pic6.png" alt="product image">
+        <p>Appliances</p>
     </div>
-
-    <!-- Panel two. It is about computer deals. -->
-    <div class="product-panel">
-        <h3>Best Computer Deals</h3>
-        <div class="product-item">
-            <img src="img/pic2.png" alt="Desktops">
-            <p>Desktops</p>
-        </div>
-        <div class="product-item">
-            <img src="img/pic1.png" alt="Home office">
-            <p>Home Office</p>
-        </div>
-        <div class="clear-box"></div>
+    <div class="product-item">
+        <img src="img/pic2.png" alt="product image">
+        <p>Laptops</p>
     </div>
-
-    <!-- Panel three. It is about fitness and style. -->
-    <div class="product-panel">
-        <h3>Fitness &amp; Style</h3>
-        <div class="product-item">
-            <img src="img/pic4.png" alt="Activewear">
-            <p>Activewear</p>
-        </div>
-        <div class="product-item">
-            <img src="img/pic5.png" alt="Beauty picks">
-            <p>Beauty Picks</p>
-        </div>
-        <div class="clear-box"></div>
+    <div class="product-item">
+        <img src="img/pic1.png" alt="product image">
+        <p>Headphones</p>
     </div>
-
-    <!-- Panel four. It is about cheap fashion and toys. -->
-    <div class="product-panel">
-        <h3>Under $25</h3>
-        <div class="product-item">
-            <img src="img/pic4.png" alt="Women fashion">
-            <p>Women</p>
-        </div>
-        <div class="product-item">
-            <img src="img/pic3.png" alt="Kids toys">
-            <p>Kids</p>
-        </div>
-        <div class="clear-box"></div>
+    <div class="product-item">
+        <img src="img/pic3.png" alt="product image">
+        <p>Speakers</p>
     </div>
-
+    <div class="clear-box"></div>
 </div>
-<!-- End of the four white panels -->
+
+    <!-- panel 2 -->
+<div class="product-panel">
+    <h3>Best Computer Deals</h3>
+    <div class="product-item">
+        <img src="img/pic2.png" alt="product image">
+        <p>Desktops</p>
+    </div>
+    <div class="product-item">
+        <img src="img/pic1.png" alt="product image">
+        <p>Home Office</p>
+    </div>
+    <div class="product-item">
+        <img src="img/pic6.png" alt="product image">
+        <p>Monitors</p>
+    </div>
+    <div class="product-item">
+        <img src="img/pic3.png" alt="product image">
+        <p>Keyboards</p>
+    </div>
+    <div class="clear-box"></div>
+</div>
+    <!-- panel 3 -->
+<div class="product-panel">
+    <h3>Fitness &amp; Style</h3>
+    <div class="product-item">
+        <img src="img/pic4.png" alt="product image">
+        <p>Activewear</p>
+    </div>
+    <div class="product-item">
+        <img src="img/pic5.png" alt="product image">
+        <p>Beauty Picks</p>
+    </div>
+    <div class="product-item">
+        <img src="img/pic1.png" alt="product image">
+        <p>Shoes</p>
+    </div>
+    <div class="product-item">
+        <img src="img/pic6.png" alt="product image">
+        <p>Bottles</p>
+    </div>
+    <div class="clear-box"></div>
+</div>
+    
+<!-- panel 4 -->
+<div class="product-panel">
+    <h3>Under $25</h3>
+    <div class="product-item">
+        <img src="img/pic4.png" alt="product image">
+        <p>Women</p>
+    </div>
+    <div class="product-item">
+        <img src="img/pic3.png" alt="product image">
+        <p>Kids</p>
+    </div>
+    <div class="product-item">
+        <img src="img/pic5.png" alt="product image">
+        <p>Accessories</p>
+    </div>
+    <div class="product-item">
+        <img src="img/pic2.png" alt="product image">
+        <p>Gadgets</p>
+    </div>
+    <div class="clear-box"></div>
+</div>
+</div>
+<!-- end of product panels -->
 
 
-<!-- This is the footer. It is a dark bar at the bottom and the text is in the center. -->
+<!-- footer -->
 <div class="footer">
     Amazon Homepage Layout Practice
 </div>
-<!-- End of the footer -->
 
 </body>
 </html>
