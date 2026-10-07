@@ -1,5 +1,3 @@
-/* Amazon homepage clone */
-
 /* global reset */
 * {
     margin: 0;
@@ -168,3 +166,110 @@ body {
 .card-three { background: tan; }
 .card-four { background: lightblue; }
 .card-five { background: plum; }
+
+/* products area: top space and overflow hidden for the floated panels */
+.products {
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+/* one white panel, floated left */
+.product-panel {
+    float: left;
+    width: 250px;
+    padding: 15px;
+    margin-right: 20px;
+    background: white;
+}
+
+/* panel title */
+.product-panel h3 {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 12px;
+}
+
+/* one small product block */
+.product-item {
+    float: left;
+    width: 115px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+/* small product image */
+.product-item img {
+    display: block;
+    width: 115px;
+    height: 100px;
+}
+
+/* small text under the image */
+.product-item p {
+    margin-top: 8px;
+    text-align: center;
+    font-size: 12px;
+}
+
+/* empty div after the floated items to clear them */
+.clear-box {
+    clear: both;
+}
+
+/* back to top bar */
+.back-top {
+    background: darkslategray;
+    text-align: center;
+    padding: 15px 0;
+}
+
+/* back to top link */
+.back-top a {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+/* footer links container: dark background */
+.footer-links {
+    background: #222;
+    padding: 30px 0;
+}
+
+/* one column of footer links */
+.footer-column {
+    float: left;
+    width: 22%;
+    padding: 0 15px;
+}
+
+/* column title */
+.footer-column h4 {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+/* one link inside a column */
+.footer-column a {
+    display: block;
+    color: lightgray;
+    font-size: 13px;
+    line-height: 26px;
+    text-decoration: none;
+}
+
+/* link hover */
+.footer-column a:hover {
+    text-decoration: underline;
+}
+
+/* footer bar */
+.footer {
+    margin-top: 0;
+    padding: 22px;
+    background: darkslategray;
+    color: lightgray;
+    text-align: center;
+    font-size: 14px;
+}
